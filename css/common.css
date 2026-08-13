@@ -1,1 +1,47 @@
+/* =========================================
+   COMMON.CSS
+   Shared styles used by all pages
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    background: #f7f1e7;
+    color: #40534f;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrap {
+    width: min(980px, 90%);
+    margin: auto;
+}
+
+/* Shared dark-mode background */
+body.dark {
+    background: #1d2b28;
+    color: #e6eeeb;
+}
 

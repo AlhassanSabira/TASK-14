@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>احجز استشارتك الآن | د. محمد عصام</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/booking.css">
+</head>
+<body>
+<header class="topbar">
+<div class="wrap top">
+<a class="brand" href="index.html">
+<img src="assets/hero.png" alt="د. محمد عصام">
+<span>د. محمد عصام<small>طبيب متخصص</small></span>
+</a>
+<nav class="links">
+<a href="index.html#services">الخدمات</a>
+<a href="index.html#about">عن الدكتور</a>
+<a href="index.html#reviews">آراء المرضى</a><a href="articles.html">المقالات</a>
+<a href="index.html">تواصل معنا</a>
+</nav>
+<div class="header-tools">
+<button class="toolbtn" id="langBtn">EN</button>
+<button class="toolbtn" id="themeBtn">☾</button>
+<a class="book" href="booking.html">احجز استشارة</a>
+</div>
+</div>
+</header>
+
+<main>
+<section class="hero wrap">
+<h1>احجز استشارتك الآن</h1>
+<div class="underline"></div>
+<p>اختر الوقت المناسب لك واحصل على استشارة احترافية</p>
+</section>
+
+<section class="wrap grid">
+<aside>
+<div class="card">
+<h2>أنواع الاستشارات</h2>
+<div class="options">
+<div class="option"><span>استشارة أونلاين</span><b>500 جنيه</b></div>
+<div class="option"><span>استشارة حضورية</span><b>600 جنيه</b></div>
+<div class="option"><span>متابعة علاجية</span><b>400 جنيه</b></div>
+<div class="option"><span>استشارة طارئة</span><b>800 جنيه</b></div>
+</div>
+</div>
+
+<div class="card quick">
+<h2>تواصل سريع</h2>
+<div class="quick-row"><span class="icon">☎</span><span>010-661-84477</span></div>
+<div class="quick-row"><span class="icon">◉</span><span>WhatsApp 24/7</span></div>
+<div class="quick-row"><span class="icon">◷</span><span>9:00 AM - 6:00 PM</span></div>
+</div>
+</aside>
+
+<section class="card form">
+<h2>نموذج الحجز</h2>
+<form id="bookingForm" class="fields">
+<input id="name" required placeholder="الاسم الكامل">
+<input id="email" type="email" required placeholder="البريد الإلكتروني">
+<input id="phone" required placeholder="رقم الهاتف">
+<select id="type" required>
+<option value="">اختر نوع الاستشارة</option>
+<option>استشارة أونلاين</option>
+<option>استشارة حضورية</option>
+<option>متابعة علاجية</option>
+<option>استشارة طارئة</option>
+</select>
+<div class="row">
+<input id="date" type="date" required>
+<input id="time" type="time" required>
+</div>
+<textarea id="notes" placeholder="ملاحظات إضافية"></textarea>
+<button class="submit" type="submit">☑ تأكيد الحجز</button>
+<div class="msg" id="msg"></div>
+</form>
+</section>
+</section>
+
+<section class="wrap help">
+<h2>هل تحتاج إلى مساعدة؟</h2>
+<p>للحصول على استشارة هاتفية تواصل معنا عبر الهاتف أو WhatsApp</p>
+<div class="help-btns">
+<a class="cta-btn whatsapp" href="https://wa.me/201066184477" target="_blank" rel="noopener">◉ WhatsApp</a>
+<a class="cta-btn phone" href="tel:+201066184477">☎ 010-661-84477</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap foot">
+<div><h3>عيادة الدكتور محمد عصام</h3><p>متخصص في الطب النفسي وعلاج الإدمان</p></div>
+<div><h4>الخدمات</h4><a href="index.html#services">العلاج النفسي الفردي</a><a href="index.html#services">العلاج الزوجي</a><a href="index.html#services">العلاج الجماعي</a></div>
+<div><h4>تواصل معنا</h4><a href="tel:+201066184477">+20 10 66184477</a><a href="mailto:info@dr-essam.com">info@dr-essam.com</a><p>القاهرة - المهندسين</p></div>
+<div><h4>تابعنا</h4><p>Facebook · Instagram · Twitter</p></div>
+</div>
+<div class="dev">تم بواسطة <strong>الحسن والحسين</strong><small>Developed by Alhassan &amp; Alhussein</small></div>
+<div class="copy">© 2026 عيادة الدكتور محمد عصام - جميع الحقوق محفوظة</div>
+</footer>
+
+
+    <script src="js/booking.js"></script>
+</body>
+</html>
